@@ -6,7 +6,7 @@ import {
 	AiTwotoneMail,
 } from 'react-icons/ai';
 // import { BiLogoGmail } from 'react-icons/bi';
-import { FaFacebook, FaLinkedinIn } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { FaPlay } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
