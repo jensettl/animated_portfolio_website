@@ -3,9 +3,8 @@ import ProgressBar from '../../chip/ProgressBar';
 import SkillBox from '../../chip/SkillBox';
 
 import { IoLogoPython } from 'react-icons/io';
-import { AiOutlineTeam } from 'react-icons/ai';
-import { BsFillDatabaseFill } from 'react-icons/bs';
-import { BiMath } from 'react-icons/bi';
+import { AiOutlineTeam, AiFillCalculator } from 'react-icons/ai';
+import { BsFillDatabaseFill, BsFillPeopleFill } from 'react-icons/bs';
 import {
 	SiJavascript,
 	SiAnaconda,
@@ -16,7 +15,7 @@ import {
 import { MdSyncProblem } from 'react-icons/md';
 import { RiFileExcel2Fill } from 'react-icons/ri';
 SiTensorflow;
-const Skills = ({ darkMode }) => {
+const Skills = () => {
 	return (
 		<div id='skills'>
 			<div className=' container m-auto  mt-16'>
@@ -48,7 +47,7 @@ const Skills = ({ darkMode }) => {
 									value={95}
 								/>
 								<ProgressBar
-									logo={<BiMath />}
+									logo={<AiFillCalculator />}
 									name={'Maths & Statistics'}
 									value={85}
 								/>
@@ -68,7 +67,7 @@ const Skills = ({ darkMode }) => {
 									value={85}
 								/>
 								<ProgressBar
-									logo={<AiOutlineTeam />}
+									logo={<BsFillPeopleFill />}
 									name={'Teamwork & Communication'}
 									value={85}
 								/>
