@@ -3,7 +3,7 @@ import ProgressBar from '../../chip/ProgressBar';
 import SkillBox from '../../chip/SkillBox';
 
 import { IoLogoPython } from 'react-icons/io';
-import { AiOutlineTeam, AiFillCalculator } from 'react-icons/ai';
+import { AiFillCalculator } from 'react-icons/ai';
 import { BsFillDatabaseFill, BsFillPeopleFill } from 'react-icons/bs';
 import {
 	SiJavascript,
