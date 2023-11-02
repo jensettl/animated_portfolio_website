@@ -53,4 +53,13 @@ export const data = [
 		git: 'https://github.com/jensettl/Defective-Product-Identification-in-Steel-Manufacturing',
 		tags: ['Data Science', 'Machine Learning', 'Python'],
 	},
+	{
+		id: 7,
+		img: 'https://i.postimg.cc/LXBdMk2J/scm-thumbnail.png',
+		title: 'Supply Chain Simulation',
+		desc: 'First, a business game was conducted to simulate a supply chain in the bicycle industry. Then, a full-stack website was developed to calculate and simulate a planning period.',
+		link: '',
+		git: 'https://github.com/ruma1036/masterplan',
+		tags: ['React', 'Python', 'SCM'],
+	},
 ];
