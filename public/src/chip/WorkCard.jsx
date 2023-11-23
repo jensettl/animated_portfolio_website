@@ -15,7 +15,7 @@ const WorkCard = () => {
 					<div
 						data-aos='zoom-in'
 						key={data.id}
-						className='flex flex-col justify-center items-center gap-4'
+						className='flex flex-col justify-center items-center gap-4 py-5'
 					>
 						<POPUP className='img-content relative'>
 							<div className='h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto '>
@@ -38,9 +38,9 @@ const WorkCard = () => {
 										<Link
 											to={data.link}
 											target='_blank'
-											className='  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium'
+											className='  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium bg-zinc-100'
 										>
-											<RxExternalLink className=' text-black bg-white rounded-full border  w-[35px] h-[35px] p-2' />
+											<RxExternalLink className=' text-black bg-zinc-50 rounded-full border  w-[35px] h-[35px] p-2' />
 											<p className=' text-black'>Demo</p>
 										</Link>
 									)}
@@ -49,9 +49,9 @@ const WorkCard = () => {
 										<Link
 											to={data.git}
 											target='_blank'
-											className='  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium'
+											className='  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium bg-zinc-100'
 										>
-											<AiOutlineGithub className='  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2' />
+											<AiOutlineGithub className='  text-black bg-zinc-50 rounded-full border  w-[35px] h-[35px] p-2' />
 											<p className=' text-black'>Code</p>
 										</Link>
 									)}
@@ -106,5 +106,6 @@ const POPUP = styled.div`
 	&:hover .popup {
 		opacity: 1;
 		color: #fff;
+		background: rgba(255, 255, 255, 0.8); // Added background value
 	}
 `;
