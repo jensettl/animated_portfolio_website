@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiTwotoneMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { TypeAnimation } from 'react-type-animation';
-import resumePDF from '../../assets/Resume_JensEttl.pdf';
+import resumePDF from '../../assets/Lebenslauf_JensEttl_26_02_2024.pdf';
 
 const Hero = () => {
 	return (
@@ -85,7 +85,7 @@ const Hero = () => {
 					<div className='relative h-[88%] w-fit flex items-end'>
 						<img
 							className=' h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0'
-							src='https://i.postimg.cc/xTsMfWpZ/removebg-removebg-preview.png'
+							src='https://i.postimg.cc/8CHPxqg5/profilbild-ohne-hintergrund.png'
 							alt='mine'
 						/>
 					</div>
