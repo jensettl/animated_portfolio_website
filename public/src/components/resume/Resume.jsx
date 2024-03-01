@@ -109,7 +109,7 @@ const Resume = () => {
 									University of Applied Science, Karlsruhe
 								</span>
 								<span className=' text-[.9rem] font-semibold text-yellow-500 sm:text-base'>
-									Year 2019 - Year 2023
+									Year 2019 - Year 2024
 								</span>
 								<p className=' text-[.9rem] text-justify text-gray-500'>
 									I completed my Bachelor's degree in IT-Business Economics with
