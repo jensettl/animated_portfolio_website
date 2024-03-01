@@ -61,9 +61,10 @@ const WorkCard = () => {
 						<p className='text-gray-800 text-xl font-medium sm:text-lg'>
 							{data.title}
 						</p>
+						<p className='text-gray-500 text'>{data.date}</p>
 						<div className=' flex items-center justify-center gap-1'>
 							{data.tags.map((tag) => (
-								<div class='ml-4 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1  rounded-full bg-white text-gray-700 border'>
+								<div class='ml-4 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 rounded-full bg-white text-gray-700 border'>
 									{tag}
 								</div>
 							))}
