@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiTwotoneMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { TypeAnimation } from 'react-type-animation';
-import resumePDF from '../../assets/Lebenslauf_JensEttl_26_02_2024.pdf';
+import resumePDF from '../../assets/Portfolio_2024_03_07.pdf';
 
 const Hero = () => {
 	return (
