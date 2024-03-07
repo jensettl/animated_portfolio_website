@@ -34,7 +34,7 @@ const Hero = () => {
 						/>
 						<p className=' text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]'>
 							IT business economics student based in Germany with a passion for
-							problem-solving through technology
+							problem-solving through technology.
 						</p>
 					</div>
 					<div data-aos='fade-up' className='buttons flex gap-5'>
