@@ -11,14 +11,15 @@ const Work = () => {
 			</div>
 			<div data-aos='fade-up' className='left flex-1 w-full'>
 				<p className='text-gray-700 font-medium w-[100%]'>
-					Here are some of my works. To see all of my works, please visit my{' '}
+					Here are some of my works.
+					{/* To see all of my works, please visit my{' '}
 					<a
 						href='https://jensettl.github.io/projects-portfolio/'
 						className='font-semibold text-yellow-500'
 					>
 						projects portfolio page
 					</a>
-					.
+					. */}
 				</p>
 			</div>
 			{/* card */}
