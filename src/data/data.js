@@ -6,7 +6,7 @@ export const data = [
 		desc: 'Created a Git Workshop for students to learn the basics of Git and GitHub. The workshop was held at the University of Applied Sciences Karlsruhe',
 		link: 'https://simonkienzler.github.io/git-workshop/',
 		git: 'https://github.com/jensettl/git-workshop',
-		date: 'September 2021, 2 weeks',
+		date: 'September 2021',
 		tags: ['GitHub Pages', 'Git CLI'],
 	},
 	{
@@ -16,7 +16,7 @@ export const data = [
 		desc: 'Based on real company data, decision trees and neural networks were used to investigate which work steps in a production process influence compliance.',
 		link: 'https://drive.google.com/file/d/1selFOlOW_VpEKOXdZdVXOvg3Xk_yFQFW/view?usp=sharing',
 		git: '',
-		date: 'May 2021 - 2 weeks',
+		date: 'May 2021',
 		tags: ['Statistics', 'Machine Learning'],
 	},
 	{
@@ -26,7 +26,7 @@ export const data = [
 		desc: 'Built a comprehensive personal organization system with Notion Pages. Effectively managed various aspects of life. Implemented a structured area dedicated to self-improvement by documenting new insights and tracking completed online courses. This system significantly improved personal productivity and knowledge retention.',
 		link: 'https://www.notion.so/HOME-b5168503d6d842989e2d38d78d0f2375?pvs=4',
 		git: '',
-		date: 'December 2023 - Now',
+		date: 'December 2023 - March 2024',
 		tags: ['Productivity', 'Knowledge Retention'],
 	},
 	{
@@ -36,7 +36,7 @@ export const data = [
 		desc: 'As part of the course "Automation of Business Processes", a BPMN process model was created for the processing of a customer order. The model was created with Camunda Modeler and implemented with Camunda BPMN Engine.',
 		link: '',
 		git: 'https://github.com/jensettl/Kundenauftrag_Process_BPMN',
-		date: 'January 2022 - 2 weeks, Grade: 1.0',
+		date: 'January 2022',
 		tags: ['BPMN', 'Java', 'Camunda'],
 	},
 	{
@@ -46,7 +46,7 @@ export const data = [
 		desc: 'Use Case: Client can ask the server for information about a trade (Unary RPC) or subscribe to a stream of trades (Server Streaming RPC).',
 		link: '',
 		git: 'https://github.com/jensettl/gRPC-Trading.js/tree/main/src',
-		date: 'October 2021, 4 weeks',
+		date: 'October 2021 - November 2021',
 		tags: ['JavaScript', 'RPC', 'Protocol Buffers'],
 	},
 	{
@@ -56,7 +56,7 @@ export const data = [
 		desc: 'Analyzed a comprehensive dataset from steel production, focusing on surface irregularities. Implemented data-driven solutions for early identification of defective steel products applying machine learning algorithms.',
 		link: '',
 		git: 'https://github.com/jensettl/Defective-Product-Identification-in-Steel-Manufacturing',
-		date: 'November 2023, 1 week',
+		date: 'November 2023',
 		tags: ['Data Science', 'Machine Learning', 'Python'],
 	},
 	{
@@ -66,7 +66,7 @@ export const data = [
 		desc: 'First, a business game was conducted to simulate a supply chain in the bicycle industry. Then, a full-stack website was developed to calculate and simulate a planning period.',
 		link: '',
 		git: 'https://github.com/ruma1036/masterplan',
-		date: 'February 2023, 6 months',
+		date: 'November 2022 - February 2023',
 		tags: ['React', 'Python', 'SCM'],
 	},
 ];
